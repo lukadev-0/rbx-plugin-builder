@@ -1,0 +1,23 @@
+.app {
+    --background-color: #313131;
+    --link-color: #339cff;
+    --color-bright: #dddddd;
+    --color: #adadad;
+
+    min-height: calc(100vh - 30px);
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-bright)
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

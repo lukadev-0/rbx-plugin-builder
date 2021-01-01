@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    padding: 1rem;
+}
+
+.home__recent {
+    flex-grow: 1;
+    padding: 0 5rem;
+}
+
+.home__actions__list, .home__recent__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.home__actions__button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: var(--link-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home__actions__button:hover {
+    text-decoration: underline;
+}
+
+.home__recent__item-path {
+    margin-left: 2rem;
+    color: #7c7c7c;
+}
